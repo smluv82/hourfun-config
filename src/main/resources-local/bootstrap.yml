@@ -1,0 +1,12 @@
+server:
+  port: ${PORT:6001}
+spring:
+  application:
+    name: hourfun-config
+  profiles:
+    active: local
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/smluv82/hourfun-config-repository
