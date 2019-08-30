@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:6001}
+  port: ${PORT:6999}
 spring:
   application:
     name: hourfun-config
